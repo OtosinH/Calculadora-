@@ -66,6 +66,8 @@ font-weight: 500;
 border: none;
 outline: none;
 text-align: right;
+ overflow: hidden;
+
 }
 .fisrt_linebtn{
 display: inline;
