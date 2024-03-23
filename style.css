@@ -1,0 +1,112 @@
+
+:root{
+--text-color: #ffffff;
+--bg-color: rgb(38, 38, 38);
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding: 0;
+
+
+}
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #d7a160;
+
+
+}
+.all__cont{
+margin: 100px;
+padding:0;
+width: 323px;
+height: 515px;
+background-color: rgb(38, 38, 38);
+box-shadow:  3px 7px 4px rgb(0, 0, 0);
+border-radius: 10px;
+}
+
+.box_title{
+box-sizing: content-box;
+display: inline-block;
+margin: 10px 35px;
+font-size: 12px;
+font-weight: 100;
+color: white;
+
+}
+.maintext{
+color: var(--text-color);
+font-weight: 600;
+margin: 0px 35px;
+border: none;
+font-family:'Lucida Sans';
+}
+.cal__logo{
+width: 18px;
+height: 18px;
+margin: 8px 15px;
+position: absolute;
+}
+.img_logo{
+width: 30px;
+height: 30px;
+display: block;
+margin: -5px 4px;
+position:absolute
+}
+.text_numb{
+width: 90%;
+background-color: var(--bg--color);
+color: var(--text-color);
+height: 80px;
+margin: 30px 15px 0;
+font-size: 70px;
+font-weight: 500;
+border: none;
+outline: none;
+text-align: right;
+}
+.fisrt_linebtn{
+display: inline;
+list-style: none;
+border-radius: 10px;
+padding: 10px;
+color: var(--text-color);
+transition: background-color 0.2s ease-out 50ms;
+
+}
+.fisrt_linebtn:hover{
+background-color: rgb(52, 52, 52);
+border-radius: 10px;
+}
+.btnone{
+width: 100%;
+margin-left: 0px;
+padding-left: 0;
+text-align: center;
+
+}
+.btns_one_column{
+margin: 0;
+padding: 2px;
+text-align: center;
+
+
+}
+.btn_por{
+background-color: rgb(49, 49, 49);
+list-style: none;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 70px;
+height: 50px;
+border-radius: 5px;
+font-size: 25px;
+color: var(--text-color);
+transition: background-color 0.2s ease-out 50ms;
+}
+.btn_por:hover{
+background-color: #494949;
+}
